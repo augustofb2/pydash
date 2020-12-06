@@ -1,8 +1,12 @@
+#UnB TR2 - 2020/1
+#Grupo 15
+#Augusto Freitas Brandão - 16/0024366
+#Fernando Sobral Nóbrega - 15/0034911
+
+
 from r2a.ir2a import IR2A
 from player.parser import *
 import time
-from statistics import mean
-
 
 class R2APanda(IR2A):
 
