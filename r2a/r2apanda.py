@@ -126,5 +126,6 @@ class R2APanda(IR2A):
         beta = 0.2          # client buffer convergence duration
         B = self.whiteboard.get_amount_video_to_play()  # client buffer duration
 
-        self.schedule = self.quantized * self.video_seg_time / self.smoothed + beta * (B - B_min)
+        self.schedule = self.quantized * self.video_seg_time 
+                        / self.smoothed + beta * (B - B_min)
         
